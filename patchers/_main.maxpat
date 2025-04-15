@@ -208,16 +208,16 @@
 					"gradient" : 1,
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1929.906527101993561, 305.607474267482758, 145.0, 44.0 ],
+					"patching_rect" : [ 1929.906527101993561, 305.607474267482758, 145.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1929.906527101993561, 305.607474267482758, 313.0, 26.0 ],
-					"text" : "/Users/marco/Documents/PROJECTS_2025/Elena_2025/results/S0603-M3-Rose_Garden-UTM16N-1m_terrain_features.csv",
+					"text" : "/Users/marco/Documents/PROJECTS_2025/ELENA_DEEPSEA/raster-data-sonification/data/raster_to_feature_csv/S0603-M3-Rose_Garden-UTM16N-1m.csv",
 					"textcolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 				}
 
@@ -237,14 +237,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2021.495311439037323, 181.308409810066223, 150.0, 49.0 ],
-					"presentation_linecount" : 3,
-					"text" : "S0603-M3-Rose_Garden-UTM16N-1m_terrain_features.csv"
+					"patching_rect" : [ 2021.495311439037323, 181.308409810066223, 150.0, 35.0 ],
+					"text" : "S0603-M3-Rose_Garden-UTM16N-1m.csv"
 				}
 
 			}
@@ -265,14 +264,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1757.943911612033844, 139.252335369586945, 181.868840217590332, 49.0 ],
-					"presentation_linecount" : 3,
-					"text" : "/Users/marco/Documents/PROJECTS_2025/Elena_2025/results/"
+					"patching_rect" : [ 1757.943911612033844, 139.252335369586945, 181.868840217590332, 62.0 ],
+					"text" : "/Users/marco/Documents/PROJECTS_2025/ELENA_DEEPSEA/raster-data-sonification/data/raster_to_feature_csv/"
 				}
 
 			}
@@ -295,13 +293,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
-					"items" : [ "S0603-M3-Rose_Garden-UTM16N-1m_hydrology_features.csv", ",", "S0603-M3-Rose_Garden-UTM16N-1m_hydrology_features.json", ",", "S0603-M3-Rose_Garden-UTM16N-1m_terrain_features.csv", ",", "S0603-M3-Rose_Garden-UTM16N-1m_terrain_features.json", ",", "S0603-M3-Rose_Garden-UTM16N-1m_texture_features.csv", ",", "S0603-M3-Rose_Garden-UTM16N-1m_texture_features.json" ],
+					"items" : [ "S0603-M3-Rose_Garden-UTM16N-1m.csv", ",", "S0606-M3-Tempus_Fugit-UTM16N-1m.csv", ",", "S0607-M3-Tempus_Fugit_West-UTM16N-1m.csv", ",", "S0608-M3-Area_A-UTM16N-1m.csv", ",", "S0609-M3-Tempus_Fugit_Extension-UTM16N-1m.csv", ",", "S0609-M3-Tempus_Fugit_SAS-UTM16N-50cm.csv", ",", "S0611-M3-Iguanas_SAS-UTM15N-50cm.csv", ",", "S0612-M3-Iguanas_SAS-UTM15N-50cm.csv", ",", "S0613-M3-Pinguinos_SAS-UTM15N-50cm.csv", ",", "S0614-M3-Los_Huellos_East-UTM15N-1m.csv" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1273.831765830516815, 94.392522633075714, 440.186912477016449, 269.158876419067383 ],
+					"patching_rect" : [ 1274.0, 94.0, 409.0, 265.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1156.074757397174835, 60.747663080692291, 99.999993681907654, 147.517721176147461 ],
 					"selectioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -343,7 +341,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 381.308408260345459, 552.336444318294525, 330.841118931770325, 62.0 ],
-					"presentation_linecount" : 20,
 					"text" : "loadJSON /Users/marco/Documents/PROJECTS_2025/Elena_2025/results/S0603-M3-Rose_Garden-UTM16N-1m_hydrology_features.json"
 				}
 
@@ -351,13 +348,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1322.429896295070648, 565.336444318294525, 351.401866436004639, 49.0 ],
-					"text" : "loadCSV /Users/marco/Documents/PROJECTS_2025/Elena_2025/results/S0603-M3-Rose_Garden-UTM16N-1m_terrain_features.csv"
+					"patching_rect" : [ 1322.429896295070648, 565.336444318294525, 351.401866436004639, 62.0 ],
+					"text" : "loadCSV /Users/marco/Documents/PROJECTS_2025/ELENA_DEEPSEA/raster-data-sonification/data/raster_to_feature_csv/S0603-M3-Rose_Garden-UTM16N-1m.csv"
 				}
 
 			}
@@ -715,6 +712,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -1141,7 +1140,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "features_reading.js",
-				"bootpath" : "~/Documents/PROJECTS_2025/Elena_2025/sonification/raster-data-sonification/code",
+				"bootpath" : "~/Documents/PROJECTS_2025/ELENA_DEEPSEA/raster-data-sonification/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
